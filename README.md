@@ -5,19 +5,19 @@
 
 1. **Clone the repo:**
     ```bash
-    git clone https://github.com/your-username/mini-art-fun-projects.git
+    git clone https://github.com/peermomin/Mini-Projects.git
     ```
 
 2. **Dive into a project:**
     ```bash
-    cd mini-art-fun-projects
+    cd Mini-Pojects
     ```
 
 3. **Run & Enjoy!** Each project folder contains simple instructions to get you started.
 
 ## 🌟 Highlights
 
-- **ASCII Art**: Simple yet expressive designs.
+- **CSS Art**: Simple yet expressive designs.
 - **Mini Games**: Quick, fun, and perfect for a break.
 - **Interactive Scripts**: Quirky scripts that do fun things.
 
@@ -32,6 +32,8 @@ MIT License - do what you love!
 ---
 
 **✨ Keep coding, keep creating! ✨**
-You can replace the `<Animated footer here>` with any terminal or web-compatible animation you like, such as a simple ASCII animation or a rotating text effect in markdown.
+---
 
-This version is more compact and focused, with an emphasis on getting users to jump straight into the projects.
+![Animated Footer](https://media.giphy.com/media/l0HlNUL6iAmkKEwVG/giphy.gif)
+
+---
