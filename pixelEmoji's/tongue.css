@@ -1,0 +1,86 @@
+body{
+    height: 100vh;
+    background: antiquewhite;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 60vh;
+    width: 40vh;
+    display: grid;
+    grid-template-columns: repeat(20,1fr);
+    grid-template-rows: repeat(18,1fr);
+}
+.parts{
+    background: grey;
+}
+.lip{
+    background: #1b1212;
+}
+.eye{
+    background: #000;
+}
+.toungue{
+    background: #800606;
+}
+.Beard{
+    background: rgb(49, 28, 28);
+}
+.top{
+    grid-area: 1/2/2/20;
+}
+.topleft{
+    grid-area:2/2/3/3;
+}
+.topright{
+    grid-area: 2/19/3/20;
+}
+.right{
+    grid-area: 2/1/18/2;
+}
+.left{
+    grid-area: 2/20/18/21;
+}
+.leftSmall{
+    grid-area: 4/3/5/4;
+}
+.leftBig{
+    grid-area: 4/4/7/6;
+}
+.rightBig{
+    grid-area: 4/16/7/18;
+}
+.rightSmall{
+    grid-area: 4/18/5/19;
+}
+.Leftlip{
+    grid-area: 10/5/11/6;
+}
+.Bottomlip{
+    grid-area: 11/6/12/16;
+}
+.Rightlip{
+    grid-area: 10/16/11/17;
+}
+.toungue{
+    grid-area: 11/9/14/13;
+}
+.beardL{
+    grid-area: 13/2/14/3;
+}
+.beardR{
+    grid-area: 13/19/14/20;
+}
+.beard{
+    grid-area: 14/2/18/20;
+}
+.bottomleft{
+    grid-area: 17/2/18/3;
+}
+.bottomright{
+    grid-area: 17/19/18/20;
+}
+.bottom{
+    grid-area: 18/2/19/20;
+}
