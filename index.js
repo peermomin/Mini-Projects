@@ -28,17 +28,27 @@ const playSound = (key) => {
     }
     audio.play();
 }
+const drumAnimation = (currentKey)=>{
+    let currentDrum = document.querySelector("." + currentKey)
+    currentDrum.classList.add("pressed")
+    setTimeout(()=>{
+        currentDrum.classList.remove("pressed")
+    },100)
+
+}
 
 let drumButtons = document.querySelectorAll('.drum');
 for (let index = 0; index < drumButtons.length; index++) {
     drumButtons[index].addEventListener('click', function() {
-        let key = this.innerHTML;
-        playSound(key);
+        let key = this.innerHTML
+        playSound(key)
+        drumAnimation(key)
     });
 }
 
 document.addEventListener('keydown',(e)=>{
     playSound(e.key)
+    drumAnimation(e.key)
 });
 
 
