@@ -36,3 +36,9 @@ for (let index = 0; index < drumButtons.length; index++) {
         playSound(key);
     });
 }
+
+document.addEventListener('keydown',(e)=>{
+    playSound(e.key)
+});
+
+
