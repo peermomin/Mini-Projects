@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background: #000;
+    color: #eee;
+}
+
+h1{
+    background: #000;
+    border-radius: 8px;
+}
+.container{
+    background: #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    right: 25%;
+    padding: 1rem;
+    border: 2px dashed violet;
+
+}
+
+.buttons:nth-child(1){
+    background: tomato;
+    min-width: 50%;
+    flex: 1;
+  
+}
+.buttons:nth-child(2){
+   background: lawngreen;
+   min-width: 50%;
+   flex: 1;
+}
+.buttons:nth-child(3){
+    background: blueviolet;
+    width: 50%;
+    flex: 1;
+}
