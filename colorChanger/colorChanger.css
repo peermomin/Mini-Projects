@@ -2,12 +2,10 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    background: #000;
-    color: #eee;
 }
 
 h1{
-    background: #000;
+    color: black;
     border-radius: 8px;
 }
 .container{
